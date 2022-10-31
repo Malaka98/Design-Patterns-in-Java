@@ -20,3 +20,6 @@ The Proxy design pattern advocates the insertion of an intermediate object, call
 
 ## Builder Pattern
 Builder is a design pattern that makes it easy to instantiate objects that have many attributes, some of which are optional. If the value of these optional attributes is not given, they must be initialized with a default value. Instead of creating several constructor methods, one method for each possible combination of parameters, we can delegate the process of initializing an object's fields to a Builder class.
+
+##Prototype Pattern
+Prototype Pattern says that cloning of an existing object instead of creating new one and can also be customized as per the requirement. This pattern should be followed, if the cost of creating a new object is expensive and resource intensive.
